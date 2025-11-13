@@ -1,7 +1,5 @@
 import random
 
-print("Welcome to Rock-Paper-Scissors!")
-
 choice = random.randint(1,3)
 computer = ""
 
@@ -12,4 +10,8 @@ elif choice == 2:
 elif choice == 3:
     computer = "scissors"
 
+print("Welcome to Rock-Paper-Scissors!")
+
+player_choice = input("Enter rock, paper, or scissors: ")
+print("You chose:", player_choice)
 print(f"Computer chose: {computer}")
